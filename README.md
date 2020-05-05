@@ -30,7 +30,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-.forEach goes over each item in your array and returns something. .map returns items you choose from the original array.
+.forEach goes over each item in your array and modifies the original array.  .map similarly goes over each item in your array and returns items you choose from the original array into a new array, leaving the original array as is.
 
 2. What is the difference between a function and a method?
 
@@ -48,6 +48,8 @@ Closure is a feature in JS where an inner function has access to the outer funct
         4. When JS's call or apply method is used, this is explicitly defined.
 
 5. Why do we need super() in an extended class?
+
+We need a super() to give the new extenision class new attributes/properties.
 
 ## Project Set up
 
